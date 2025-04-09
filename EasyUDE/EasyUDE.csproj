@@ -12,7 +12,8 @@
 		<PackageId>EasyUDE</PackageId>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<RepositoryUrl>https://github.com/ArchieWoo/EasyUDE</RepositoryUrl>
-		<PackageIcon></PackageIcon>
+		<PackageProjectUrl>https://github.com/ArchieWoo/EasyUDE</PackageProjectUrl>
+		<PackageIcon></PackageIcon>	
 		<PackageReadmeFile>README.zh.md</PackageReadmeFile>
 		<Description>
 			EasyUDE is a lightweight .NET utility library focused on character encoding detection and conversion.
@@ -29,7 +30,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Include="README.zh.md">
+	  <None Include="..\README.zh.md">
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
 	  </None>
