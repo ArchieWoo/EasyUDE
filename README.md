@@ -5,8 +5,8 @@
   <a >中文</a> 
 </p>
 
-[![](https://img.shields.io/nuget/dt/EasyDbc?color=004880&label=downloads&logo=NuGet)](https://www.nuget.org/packages/EasyUDE/)
-[![](https://img.shields.io/nuget/vpre/EasyDbc?color=%23004880&label=NuGet&logo=NuGet)](https://www.nuget.org/packages/EasyUDE/)
+[![](https://img.shields.io/nuget/dt/EasyUDE?color=004880&label=downloads&logo=NuGet)](https://www.nuget.org/packages/EasyUDE/)
+[![](https://img.shields.io/nuget/vpre/EasyUDE?color=%23004880&label=NuGet&logo=NuGet)](https://www.nuget.org/packages/EasyUDE/)
 [![GitHub](https://img.shields.io/github/license/ArchieWoo/EasyUDE?color=%231281c0)](LICENSE)
 
 
