@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net462;netstandard2.0;net5.0;net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<EnableNETAnalyzers>true</EnableNETAnalyzers>
+		<Authors>Wu Qi</Authors>
+		<Title>EasyUDE</Title>
+		<Version>1.0.0</Version>
+		<PackageId>EasyUDE</PackageId>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<RepositoryUrl>https://github.com/ArchieWoo/EasyUDE</RepositoryUrl>
+		<PackageIcon></PackageIcon>
+		<PackageReadmeFile>README.zh.md</PackageReadmeFile>
+		<Description>
+			EasyUDE is a lightweight .NET utility library focused on character encoding detection and conversion.
+			It helps developers quickly identify the original encoding format of text data and efficiently convert it to target encoding formats.
+			The library features built-in confidence detection logic based on statistical analysis and character distribution patterns, significantly improving encoding detection accuracy.
+			EasyUDE 是一个轻量级的 .NET 工具库，专注于字符串编码格式的检测与转换。
+			它不仅能够帮助开发者快速识别文本数据的原始编码格式，并将其高效转换为目标编码格式，还内置了一套基于统计学和字符分布分析的可信度检测逻辑，从而显著提升编码检测的准确性。
+		</Description>
+		<Copyright>© 2024 Wu Qi. Licensed under the MIT License. See LICENSE file for details.</Copyright>
+</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="Assets\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="README.zh.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="System.Text.Encoding.CodePages" Version="9.0.3" />
+	</ItemGroup>
+
+</Project>

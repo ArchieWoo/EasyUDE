@@ -1,0 +1,35 @@
+﻿namespace EasyUDE
+{
+    public enum TargetEncoding
+    {
+        ASCII,
+        UTF_8,
+        UTF_16LE,
+        UTF_16BE,
+        UTF_32BE,
+        UTF_32LE,
+        windows_1251,
+        windows_1252,
+        windows_1253,
+        windows_1255,
+        Big5,
+        EUC_KR,
+        EUC_JP,       
+        ISO_2022_JP,
+        ISO_2022_CN,
+        ISO_2022_KR,
+        HZ_GB_2312,
+        Shift_JIS,
+        x_mac_cyrillic,
+        KOI8_R,
+        IBM855,
+        IBM866,
+        ISO_8859_2,
+        ISO_8859_5,
+        ISO_8859_7,
+        ISO_8859_8,
+        GBK,
+        GB2312,
+        GB18030,
+    }
+}

@@ -1,0 +1,15 @@
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+.idea
+.vs
+
+# Build results
+EasyUDE/obj/
+EasyUDE/bin/
+EasyUDE.Test/obj/
+EasyUDE.Test/bin/
+
+# Misc
+*.ini
